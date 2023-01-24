@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./style.css";
+
 import vk from "../../img/icons/vk.svg";
 import instagram from "../../img/icons/instagram.svg";
 import twitter from "../../img/icons/twitter.svg";
