@@ -6,27 +6,14 @@ import twitter from "./img/icons/twitter.svg";
 import gitHub from "./img/icons/gitHub.svg";
 import linkedIn from "./img/icons/linkedIn.svg";
 import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <header className="header">
-        <div className="header__wrapper">
-          <h1 className="header__title">
-            <strong>
-              Hi, my name is <em>Yuri</em>
-            </strong>
-            <br />a frontend developer
-          </h1>
-          <div className="header__text">
-            <p>with passion for learning and creating.</p>
-          </div>
-          <a href="#!" className="btn">
-            Download CV
-          </a>
-        </div>
-      </header>
+
+      <Header />
 
       <main className="section">
         <div className="container">
