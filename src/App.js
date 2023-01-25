@@ -8,7 +8,7 @@ import Contacts from "./pages/Contacts";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
 
       {/* <Home /> */}
