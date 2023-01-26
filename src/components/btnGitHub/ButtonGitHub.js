@@ -2,9 +2,10 @@ import React from "react";
 
 import gitHubBlack from "./../../img/icons/gitHub-black.svg";
 
-const ButtonGitHub = () => {
+const ButtonGitHub = ({ link }) => {
   return (
-    <a href="#!" className="btn-outline">
+    // eslint-disable-next-line react/jsx-no-target-blank
+    <a href={link} target="_blank" className="btn-outline">
       <img src={gitHubBlack} alt="" />
       GitHub repo
     </a>

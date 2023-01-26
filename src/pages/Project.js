@@ -15,7 +15,7 @@ const Project = () => {
             <p>Skills: React, JavaScript, SCSS</p>
           </div>
 
-          <ButtonGitHub />
+          <ButtonGitHub link="https://github.com/BermetUson" />
         </div>
       </div>
     </main>
