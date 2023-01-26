@@ -1,5 +1,6 @@
 import React from "react";
-import projects01 from "./../img/projects/01.jpg";
+import projects01 from "./../../img/projects/01.jpg";
+import "./style.css";
 
 const Project = () => {
   return (
