@@ -14,8 +14,8 @@ const projects = [
   {
     title: "Photo collection",
     skills: "React, JavaScript, SCSS",
-    img: project01,
-    imgBig: project01Big,
+    img: project03,
+    imgBig: project03Big,
     gitHubLink: "https://github.com/BermetUson/Photo-collection",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: "Quiz",
-    img: project03,
+    img: project01,
     imgBig: project03Big,
     skills: "React, JavaScript, SCSS",
     gitHubLink: "https://github.com/BermetUson/Quiz",
